@@ -1,0 +1,25 @@
+#centerHead{
+display: flex;
+flex-grow: 8;
+justify-content: center;
+background-color: grey;
+clear: both;
+width: 100%;
+margin: auto;
+}
+#nav {
+    display: flex;
+    align-self: flex-start
+}
+#img{
+    display: flex;
+    justify-content: center;
+    border-radius:42px;
+}
+#body{
+    background-color: green;
+    
+}
+@media (min-width: 1400px)
+.container {
+    max-width: 1400px;
